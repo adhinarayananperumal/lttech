@@ -7,7 +7,7 @@ public class ibankinginterbankTransferClient {
 		MessagePojo messagePojo = new MessagePojo();
 		messagePojo.setMessage("You are sending to access from new device , browset chrome we34908593485");
 		messagePojo.setSendingMode("mobile");
-		messagePojo.setMessageType("pdf");
+		messagePojo.setMessageType("txt");
 		
 
 		MessageCreaterImpl message = new MessageCreaterImpl();

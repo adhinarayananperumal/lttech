@@ -11,6 +11,10 @@ abstract public class BaseMessageSenderImpl {
 		}else if(messagePojo.getSendingMode().equals("whatsApp")) {
 			this.messageSender = new WhatsAppSenderImpl();
 
+		}else if(messagePojo.getSendingMode().equals("email")) {
+			this.messageSender = new EmailSenderImpl();
+		}else {
+			
 		}
 	}
 

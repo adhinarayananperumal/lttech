@@ -13,7 +13,7 @@ public class PDFMessageImpl extends BaseMessageSenderImpl implements Message{
 	public MessagePojo createMessage(MessagePojo messagePojo) {
 		senderCreation(messagePojo);
 		messageSender.send(messagePojo);
-		return null;
+		return messagePojo;
 	}
 
 	@Override

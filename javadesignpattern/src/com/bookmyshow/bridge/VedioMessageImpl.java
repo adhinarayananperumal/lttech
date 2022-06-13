@@ -7,6 +7,7 @@ public class VedioMessageImpl extends BaseMessageSenderImpl implements Message {
 	@Override
 	public MessagePojo createMessage(MessagePojo messagePojo) {
 		senderCreation(messagePojo);
+		messageSender.send(messagePojo);
 		return null;
 	}
 

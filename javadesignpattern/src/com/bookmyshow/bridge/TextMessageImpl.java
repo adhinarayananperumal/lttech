@@ -7,7 +7,9 @@ public class TextMessageImpl extends BaseMessageSenderImpl implements Message {
 	
 	@Override
 	public MessagePojo createMessage(MessagePojo messagePojo) {
+		// create text message logic
 		senderCreation(messagePojo);
+		messageSender.send(messagePojo);
 		return null;
 	}
 

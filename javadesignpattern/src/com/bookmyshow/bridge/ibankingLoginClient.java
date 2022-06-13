@@ -7,7 +7,7 @@ public class ibankingLoginClient {
 		MessagePojo messagePojo = new MessagePojo();
 		messagePojo.setMessage("You are sending to access from new device , browset chrome we34908593485");
 		messagePojo.setSendingMode("mobile");
-		messagePojo.setMessageType("Whatsapp");
+		messagePojo.setMessageType("text");
 		
 
 		MessageCreaterImpl message = new MessageCreaterImpl();
